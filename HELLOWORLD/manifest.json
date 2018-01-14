@@ -1,8 +1,8 @@
 {
-	"menifest-version":2,
+	"manifest_version":2,
 	"name":"Hello World",
 	"version":"1.0",
-	"discription":"A Hello World extenion!",
+	"description":"A Hello World extenion!",
 	"icons":
 	{
 		"128":"icon128.png",
