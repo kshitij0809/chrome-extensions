@@ -20,7 +20,7 @@ $(function(){
            }
 
         chrome.storage.sync.set({'total':newtotal},function(){
-        	if (amount && total>budget.limit) {
+        	if (amount && newtotal>budget.limit) {
         		var notifOptions={
         			type:'basic',
         			iconUrl:'icon48.png',
