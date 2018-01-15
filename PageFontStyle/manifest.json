@@ -1,0 +1,21 @@
+	{
+	"manifest_version":2,
+	"name":"PageFontStyle extension",
+	"version":"1.0",
+	"description":"change the css style!",
+	"icons":
+	{
+		"128":"icon128.png",
+		"48":"icon48.png",
+		"16":"icon16.png"
+	},
+	"page_action":{
+		"default_icon":"icon16.png",
+		"default_popup":"popup.html",
+		"default_title":"PageFontStyle"
+	},
+	"background":{
+			"scripts":["eventPage.js"],
+			"persistent":false
+    }
+}
