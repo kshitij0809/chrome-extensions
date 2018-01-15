@@ -17,5 +17,13 @@
 	"background":{
 			"scripts":["eventPage.js"],
 			"persistent":false
-    }
+    },
+    "content_scripts":[{
+    	"matches":["https://developers.chrome.com/*"],
+    	"js":["content.js","jquery-3.2.1.min.js"]
+    }],
+    "permissions":[
+    	"tabs",
+    	"https://developers.chrome.com/*"
+     ]
 }
